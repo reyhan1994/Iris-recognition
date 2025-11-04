@@ -50,13 +50,14 @@ jupyter notebook notebooks/train_test_split.ipynb
 
 3️⃣ Custom Loss Functions
 
-### 🧠 Loss Functions
-✅ Triplet Loss 
-Used for feature embedding optimization.
-🔥 ArcFace Loss  
-Enhances class separability in angular space.
-💡 Proposed Margin-based Loss Function
-Introduced to handle unbalanced image datasets.
+### 🧠 Loss Functions  
+
+✅ **Triplet Loss** — Used for feature embedding optimization.  
+
+🔥 **ArcFace Loss** — Enhances class separability in angular space.  
+
+💡 **Proposed Margin-based Loss Function** — Introduced to handle unbalanced image datasets.  
+
 
 ## 🧩 Results
 
