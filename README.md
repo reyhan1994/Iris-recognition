@@ -50,7 +50,7 @@ jupyter notebook notebooks/train_test_split.ipynb
 
 3️⃣ Custom Loss Functions
 
-### 🧠 Loss Functions  
+The file losses.py implements several margin-based and distance-based loss functions, including 
 
 ✅ **Triplet Loss** — Used for feature embedding optimization.  
 
