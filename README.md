@@ -50,13 +50,14 @@ jupyter notebook notebooks/train_test_split.ipynb
 
 3️⃣ Custom Loss Functions
 
-The file losses.py implements several margin-based and distance-based loss functions, including:
+### 🧠 Loss Functions
+✅ Triplet Loss 
+Used for feature embedding optimization.
+🔥 ArcFace Loss  
+Enhances class separability in angular space.
+💡 Proposed Margin-based Loss Function
+Introduced to handle unbalanced image datasets.
 
-Triplet Loss
-
-ArcFace Loss
-
-Proposed Margin-based Loss Function
 ## 🧩 Results
 
 Our proposed **margin-based loss function** significantly improves iris recognition accuracy compared to conventional triplet and softmax-based losses.  
