@@ -57,12 +57,15 @@ Triplet Loss
 ArcFace Loss
 
 Proposed Margin-based Loss Function
-🧩 Results
+## 🧩 Results
 
-Our proposed loss function improved the recognition accuracy compared to conventional triplet loss and softmax-based methods, showing superior inter-class margin and intra-class compactness.
+Our proposed **margin-based loss function** significantly improves iris recognition accuracy compared to conventional triplet and softmax-based losses.  
+It enhances inter-class separation and intra-class compactness, leading to better feature discrimination.
 
-Model	Loss Function	Accuracy (%)
-MobileNet + Softmax	95.2	
-MobileNet + Triplet Loss	96.4	
-MobileNet + Margin-based Loss (Ours)	98.1	
+| 🧠 Model | ⚙️ Loss Function | 🎯 Accuracy (%) |
+|:---------------------------|:----------------------------:|:----------------:|
+| MobileNet + Softmax | Softmax | 95.2 |
+| MobileNet + Triplet Loss | Triplet Loss | 96.4 |
+| **MobileNet + Margin-based Loss (Ours)** | **Margin-based Loss** | **98.1** |
 
+> **Key Insight:** Incorporating a margin-based constraint into the embedding space encourages larger inter-class margins and tighter intra-class clustering, resulting in superior recognition performance.
