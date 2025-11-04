@@ -85,4 +85,11 @@ If you use this code or find it helpful in your research, please cite:
   doi={10.3390/a15040118}
 }
 ```
+📧 Contact
+
+For questions, collaborations, or academic inquiries, please contact:
+
+📩 Reihan Alinia Lat  
+📬 Email: reihan.alinia.lat@gmail.com
+
 
