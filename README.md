@@ -43,3 +43,15 @@ Update paths in the Jupyter notebooks as needed.
 2️⃣ Training
 
 Run the following command or open the training notebook:
+```jupyter notebook notebooks/train_test_split.ipynb
+
+3️⃣ Custom Loss Functions
+
+The file losses.py implements several margin-based and distance-based loss functions, including:
+
+Triplet Loss
+
+ArcFace Loss
+
+Proposed Margin-based Loss Function
+
