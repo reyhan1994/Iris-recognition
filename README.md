@@ -32,7 +32,8 @@ It integrates **MobileNet** as the backbone with **Triplet Loss** and **ArcFace-
 │
 ├── requirements.txt # Python dependencies
 │
-└── README.md # Project documentation```
+└── README.md # Project documentation
+```
 
 🚀 Usage
 1️⃣ Data Preparation
@@ -43,7 +44,8 @@ Update paths in the Jupyter notebooks as needed.
 2️⃣ Training
 
 Run the following command or open the training notebook:
-```jupyter notebook notebooks/train_test_split.ipynb```
+```jupyter notebook notebooks/train_test_split.ipynb
+```
 
 3️⃣ Custom Loss Functions
 
