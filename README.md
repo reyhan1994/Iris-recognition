@@ -44,7 +44,8 @@ Update paths in the Jupyter notebooks as needed.
 2️⃣ Training
 
 Run the following command or open the training notebook:
-```jupyter notebook notebooks/train_test_split.ipynb
+```
+jupyter notebook notebooks/train_test_split.ipynb
 ```
 
 3️⃣ Custom Loss Functions
