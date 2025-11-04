@@ -1,21 +1,21 @@
-Iris Recognition Using Deep Learning
+# Iris Recognition Using Deep Learning
 
-About the Project
+## 🧠 About the Project
+This repository contains an **iris recognition system** built with deep learning techniques.  
+The main goal is to achieve **accurate and robust identification** based on iris images using convolutional neural networks and advanced embedding approaches such as **MobileNet**, **ArcFace**, and **Triplet Loss**.
 
-This project implements an iris recognition system using deep learning techniques. The system is designed to perform accurate identification and verification based on iris images, utilizing convolutional neural networks and advanced embedding methods.
+This project demonstrates expertise in **biometric recognition**, **deep learning model design**, and **feature embedding for identity verification**.
 
-The goal is to provide a robust biometric recognition system, inspired by research in MobileNet + ArcFace + Triplet Loss for iris identification. This project is suitable for research, academic exploration, and proof-of-concept applications in biometric security.
+---
 
-Features
+## 🚀 Features
+- Iris segmentation and preprocessing  
+- Deep feature extraction using CNN architectures  
+- ArcFace and Triplet Loss for discriminative embedding learning  
+- Complete training and testing pipelines  
+- Evaluation metrics (accuracy, ROC curve, confusion matrix)  
+- Well-organized and reproducible research structure  
 
-Iris segmentation and preprocessing
+---
 
-Feature extraction using deep learning
-
-Triplet loss and ArcFace embedding for robust identification
-
-Training and testing pipelines implemented in Python/Jupyter notebooks
-
-Evaluation metrics including accuracy, ROC curves, and confusion matrices
-
-
+## 📂 Project Structure
