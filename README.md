@@ -18,14 +18,4 @@ Training and testing pipelines implemented in Python/Jupyter notebooks
 
 Evaluation metrics including accuracy, ROC curves, and confusion matrices
 
-Iris-recognition/
-│
-├── datasets/                # Iris image datasets
-├── notebooks/               # Jupyter notebooks for experiments and analysis
-│   ├── train_test_split.ipynb
-│   ├── segment_sohaib.ipynb
-│   └── ...
-├── models/                  # Pretrained models and architecture definitions
-├── losses.py                # Custom loss functions (e.g., Triplet Loss)
-├── requirements.txt         # Python dependencies
-└── README.md
+
