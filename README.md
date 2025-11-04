@@ -69,3 +69,20 @@ It enhances inter-class separation and intra-class compactness, leading to bette
 | **MobileNet + Margin-based Loss (Ours)** | **Margin-based Loss** | **98.1** |
 
 > **Key Insight:** Incorporating a margin-based constraint into the embedding space encourages larger inter-class margins and tighter intra-class clustering, resulting in superior recognition performance.
+>
+> 🧪 Citation
+
+If you use this code or find it helpful in your research, please cite:
+```@article{alinia2022boosting,
+  title={Boosting Iris Recognition by Margin-Based Loss Function},
+  author={Alinia Lat, Reihan and others},
+  journal={Algorithms},
+  volume={15},
+  number={4},
+  pages={118},
+  year={2022},
+  publisher={MDPI},
+  doi={10.3390/a15040118}
+}
+```
+
