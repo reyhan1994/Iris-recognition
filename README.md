@@ -1,37 +1,22 @@
-# Iris Recognition Using Deep Learning
+# 🧠 Iris Recognition
 
-## 🧠 About the Project
-This repository presents an **iris recognition system** developed using deep learning techniques.  
-The main goal is to achieve **accurate and robust iris identification** by leveraging convolutional neural networks and advanced embedding approaches such as **MobileNet**, **ArcFace**, and **Triplet Loss**.
-
-The project demonstrates expertise in **biometric recognition**, **deep learning model design**, and **margin-based loss optimization** for improving feature discrimination in iris images.
-
----
-
-## 🧾 Related Publication
-This repository is associated with the following research paper:
-
-> **R. Alinia Lat**, S. Danishvar, H. Heravi, and M. Danishvar,  
-> *Boosting Iris Recognition by Margin-Based Loss Functions*,  
-> **Algorithms**, vol. 15, no. 4, p. 118, 2022.  
-> [https://doi.org/10.3390/a15040118](https://doi.org/10.3390/a15040118)
-
-This repository provides the implementation framework and experimental results inspired by the methodology presented in the above paper.  
-The study introduces a **margin-based loss function** designed to enhance feature discrimination and improve iris recognition accuracy using deep neural networks.
+**Official Implementation of:**  
+> *Boosting Iris Recognition by Margin-Based Loss Function*  
+> **Reihan Alinia Lat, et al.**  
+> *Algorithms*, 2022, 15(4), 118  
+> DOI: [10.3390/a15040118](https://doi.org/10.3390/a15040118)
 
 ---
 
-## 🚀 Features
-- Iris image preprocessing and segmentation  
-- Deep feature extraction using CNN architectures  
-- Implementation of ArcFace and Triplet Loss for discriminative learning  
-- Training and evaluation pipelines using TensorFlow/Keras  
-- Visualization of results with accuracy metrics and confusion matrices  
-- Reproducible and modular code structure for research extension  
+## 📘 Overview
+This repository provides the official implementation of our paper *"Boosting Iris Recognition by Margin-Based Loss Function"*.  
+The project introduces a **margin-based loss function** to improve the discriminative power of deep feature embeddings for iris recognition tasks.  
+It integrates **MobileNet** as the backbone with **Triplet Loss** and **ArcFace-inspired margin constraints** for enhanced inter-class separation.
 
 ---
 
 ## 📂 Project Structure
+
 ```Iris-recognition/
 │
 ├── datasets/ # Iris image datasets
@@ -43,10 +28,18 @@ The study introduces a **margin-based loss function** designed to enhance featur
 │
 ├── models/ # Pretrained models and architecture definitions
 │
-├── losses.py # Custom loss functions (e.g., Triplet Loss)
+├── losses.py # Custom loss functions (e.g., Triplet Loss, Margin-based Loss)
 │
 ├── requirements.txt # Python dependencies
 │
 └── README.md # Project documentation
 
+🚀 Usage
+1️⃣ Data Preparation
 
+Place your iris image datasets inside the datasets/ directory.
+Update paths in the Jupyter notebooks as needed.
+
+2️⃣ Training
+
+Run the following command or open the training notebook:
