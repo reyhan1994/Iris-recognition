@@ -32,14 +32,21 @@ The study introduces a **margin-based loss function** designed to enhance featur
 ---
 
 ## 📂 Project Structure
-Iris-recognition/
+```Iris-recognition/
 │
 ├── datasets/ # Iris image datasets
+│
 ├── notebooks/ # Jupyter notebooks for experiments and analysis
 │ ├── train_test_split.ipynb
 │ ├── segment_sohaib.ipynb
 │ └── ...
+│
 ├── models/ # Pretrained models and architecture definitions
+│
 ├── losses.py # Custom loss functions (e.g., Triplet Loss)
+│
 ├── requirements.txt # Python dependencies
-└── README.md
+│
+└── README.md # Project documentation
+
+
